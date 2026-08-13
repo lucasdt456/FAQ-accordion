@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./assets/css/output.css">
+  <title>Frontend Mentor | FAQ accordion</title>
+
+</head>
+<body class="font-Work-Sans bg-Purple-100
+grid place-content-center min-h-screen
+bg-[url('../images/background-pattern-mobile.svg')] bg-no-repeat
+lg:bg-[url('../images/background-pattern-desktop.svg')]
+bg-contain">
+  
+  <main class="">
+    <section class="w-[327px] bg-White px-6 py-[19px] rounded-lg text-Purple-950
+    shadow-xl shadow-Purple-600/30 lg:w-[604px] lg:px-[41px] lg:py-[32px] lg:rounded-[18px]">
+      
+      <div class="flex items-center space-x-6 mb-[18px] lg:mb-[24px]">
+        <img 
+        class="w-[24px] h-[24px] lg:size-[42px]"
+        src="./assets/images/icon-star.svg" 
+        alt="Star Icon">
+        <h1 class="text-[32px] font-bold lg:text-[56px] lg:tracking-normal">FAQs</h1>
+      </div>
+
+      <details class="lg:mb-[26px] mb-[18px] border-b text-Purple-600/20 pb-[21px]">
+        
+        <summary class="flex cursor-pointer place-content-between items-center">
+          <h2 class="font-semibold leading-[1.2] mr-4 text-Purple-950 
+          hover:text-Purple-hover-text lg:text-lg lg:mr-0">What is Frontend Mentor, and how will it help me?</h2>
+          <img src="./assets/images/icon-plus.svg" alt="Icon plus" class="">
+        
+        </summary>
+
+        <p class="text-[14px] text-Purple-600 mt-[24px] lg:text-[1rem] lg:mt-[22px]">
+          Frontend Mentor offers realistic coding challenges to help developers improve their
+          frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for
+          all levels and ideal for portfolio building.
+        </p>
+      </details>
+
+      
+      <details class="lg:mb-[26px] mb-[18px] border-b text-Purple-600/20 pb-[21px] open:url('./assets/images/icon-minus.svg')">
+
+        <summary class="flex cursor-pointer place-content-between items-center ">
+          <h2 class="font-semibold leading-[1.2] mr-4 text-Purple-950 
+          hover:text-Purple-hover-text lg:text-lg lg:mr-0">Is Frontend Mentor free?</h2>
+          
+          
+          <img src="./assets/images/icon-plus.svg" alt="Icon plus">
+
+        </summary>
+
+
+        <p class="text-[14px] text-Purple-600 mt-[24px] lg:mt-[22px]">
+          Yes, Frontend Mentor offers both free and premium coding challenges, with the free
+          option providing access to a range of projects suitable for all skill levels.
+        </p>
+      </details>
+
+      
+      <details class="lg:mb-[26px] mb-[18px] border-b text-Purple-600/20 pb-[21px]">
+
+        <summary class="flex cursor-pointer place-content-between items-center">
+          <h2 class="font-semibold leading-[1.2] mr-4 text-Purple-950 
+          hover:text-Purple-hover-text lg:text-lg lg:mr-0">Can I use Frontend Mentor projects in my portfolio?</h2>
+
+          
+          <img src="./assets/images/icon-plus.svg" alt="Icon plus">
+
+        </summary>
+
+
+        <p class="text-[14px] text-Purple-600 mt-[24px] lg:mt-[22px]">
+          Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent
+          way to showcase your skills to potential employers!
+        </p>
+      </details>
+  
+      
+      <details class="pb-[6px]">
+        <summary class="flex cursor-pointer place-content-between items-center ">
+          <h2 class="font-semibold leading-[1.2] mr-4 text-Purple-950 
+          hover:text-Purple-hover-text lg:text-lg lg:mr-0">How can I get help if I'm stuck on a challenge?</h2>
+          
+          <img src="./assets/images/icon-plus.svg" alt="Icon plus">
+        
+        </summary>
+
+        <p class="text-[14px] text-Purple-600 mt-[24px]">
+          The best place to get help is inside Frontend Mentor's Discord community. There's a help
+          channel where you can ask questions and seek support from other community members.
+        </p>
+      </details>
+  
+    </section>
+  </main>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>
